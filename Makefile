@@ -1,5 +1,5 @@
 APP_NAME := xsVideo
-APP_VERSION := 0.0.3
+APP_VERSION := 0.1.0
 BIN_NAME := xsvideo
 
 SHELL := /bin/bash
