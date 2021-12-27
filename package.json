@@ -1,20 +1,33 @@
 {
   "name": "xsvideo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "template-ts": "./dist/main.js"
   },
-  "main": "./dist/lib.js",
-  "scripts": {
-    "dev": "tsc",
-    "fmt": "dprint fmt",
-    "lint": "eslint . --ext .ts"
+  "bugs": {
+    "url": "https://github.com/impossible98/xsvideo/issues"
   },
+  "description": "Convert video",
   "devDependencies": {
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^8.0.0",
     "typescript": "^4.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/impossible98/xsvideo",
+  "license": "MPL-2.0",
+  "main": "./dist/lib.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impossible98/xsvideo.git"
+  },
+  "scripts": {
+    "dev": "tsc",
+    "fmt": "dprint fmt",
+    "lint": "eslint . --ext .ts"
   }
 }
