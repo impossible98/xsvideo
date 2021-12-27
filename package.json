@@ -2,7 +2,7 @@
   "name": "xsvideo",
   "version": "0.0.2",
   "bin": {
-    "template-ts": "./dist/main.js"
+    "xsvideo": "./dist/main.js"
   },
   "bugs": {
     "url": "https://github.com/impossible98/xsvideo/issues"
